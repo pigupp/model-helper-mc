@@ -1,0 +1,13 @@
+Model-Helper Changelog:
+
+[30.01.2023] - v1.0
+- Release
+
+[02.02.2023] - v1.1
+- Changed folder structure to make editing the datapack easier
+- Minor bug fixes
+
+[03.02.2023] - v1.2
+- Added README.txt with instructions
+- Added changelog.txt (this file)
+

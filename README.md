@@ -1,24 +1,23 @@
-# Model-Helper for [Minecraft: Java Edition](https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc) [1.19.3]
+# Model-Helper for Minecraft: Java Edition [1.19.3]
 
-GitHub/Source: https://github.com/pigupp/model-helper-mc
+GitHub/Source: https://github.com/pigupp/model-helper-mc  
+Minecraft: https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc  
 
 ## Description:
 Model-Helper is a tool that makes it easier to implement custom models (objects) in Minecraft.  
 It consists of a datapack (tools) and a resourcepack (models & textures) that work closely together.  
-(FYI: Models don't have hitboxes unless you add your own)
+(FYI: Models don't have hitboxes unless you add your own)  
 
 
 
 ## Software:
 To create and edit the models, I recommend [Blockbench](https://www.blockbench.net/).  
 And to edit the files inside Model-Helper (datapack & resourcepack) I recommend [Visual Studio Code](https://code.visualstudio.com/).  
-(⇒ but of course any text editor will do)
+(⇒ but of course any text editor will do)  
 
 
 
 ## Instructions:
-
----
 
 ### I. Installation / Preparation:
 
@@ -82,7 +81,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ### VI. Updating Model-Helper:
 
 1. Uninstall/Remove Model-Helper (⇒ step V) but before reloading everything, move the updated folders into their directories (⇒ step I).
-2. Now reload the datapack and resourcepack ("/reload" & [F3] + [T]).
+2. Now reload the datapack and resourcepack ("`/reload`" & `[F3] + [T]`).
 
 ---
 

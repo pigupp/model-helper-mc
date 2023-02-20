@@ -33,7 +33,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 4. The (invisible) item frame will be the "floor"/bottom of your model, so you need to rotate the whole model by X = -90 ("Rotation").
 5. Now adjust the distance ("Translation" ⇒ Z-Axis) between the bottom of your model and the reference cube (e.g. Z = -16).
 6. If you want, you can also change the scale of the model; just try the different settings until it looks nice (or not).
-7. Now go to [File > Save Model] and save it somewhere (e.g. `C:\Users\<USER>\3D Objects\Blockbench\`).
+7. Now go to `[File > Save Model]` and save it somewhere (e.g. `C:\Users\<USER>\3D Objects\Blockbench\`).
 
 ---
 
@@ -45,12 +45,11 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
    - Open your model file with a text editor (VS Code) and change the values of `"0"` and `"particle"` to `"custom/<name>"` (replace `<name>` with the name of your model)
    - Move your texture file for your model (`<name>.png`) to `\assets\minecraft\textures\custom\`
    - Now open `\assets\minecraft\models\item\paper.json`
-   - Under "overrides" write `{"predicate": {"custom_model_data": <ID>},"model": "custom/example"`, 
-  replace <ID> with a unique positive integer (⇒ CustomModelData-ID) and don't forget to put a comma next to the above line.
+   - Under "overrides" write `{"predicate": {"custom_model_data": <ID>},"model": "custom/<name>"}`, replace `<ID>` with a unique positive integer (⇒ CustomModelData-ID), replace `<name>` with the name of your model and don't forget to put a comma next to the above line.
 3. Navigate to the folder: "Model-Helper Datapack":
    - Open `\data\model_config\functions\items.mcfunction` and duplicate the command according to the instructions in the file (marked with #)
    - Open `\data\model_config\functions\text.mcfunction` and duplicate the command according to the instructions in the file (marked with #)
-4. Finally, reload the datapack by typing "/reload" in the chat and the resourcepack by pressing [F3] + [T].
+4. Finally, reload the datapack by typing "/reload" in the chat and the resourcepack by pressing `[F3] + [T]`.
 
 ---
 
@@ -83,5 +82,5 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 
 ---
 
-`You've made it!`
+*You've made it!*
 

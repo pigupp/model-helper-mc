@@ -40,7 +40,7 @@ III. Adding Models and Textures:
 1. Open both folders (VSC: File > Add Folder to Workspace...; Or just open them in a file explorer).
 2. Navigate to the folder: "Model-Helper Resourcepack":
 - Move your model file (<name>.json) to \assets\minecraft\models\custom\
-- Open your model file with a text editor (VS Code) and change the values of "0" and "particle" to "custom/<name>"
+- Open your model file with a text editor (VS Code) and change the values of "0" and "particle" to "custom/<name>" (replace <name> with the name of your model)
 - Move your texture file for your model (<name>.png) to \assets\minecraft\textures\custom\
 - Now open \assets\minecraft\models\item\paper.json
 - Under "overrides" write '{"predicate": {"custom_model_data": <ID>},"model": "custom/example"}', 

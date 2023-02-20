@@ -23,7 +23,7 @@ I. Installation / Preparation:
 
 
 
-II. Create the models using Blockbench:
+II. Building the models using Blockbench:
 
 1. Create a new "Java Block/Item".
 2. Edit and paint your model (https://www.google.com/search?q=How+to+use+Blockbench).
@@ -35,7 +35,7 @@ II. Create the models using Blockbench:
 
 
 
-III. Add Models and Textures:
+III. Adding Models and Textures:
 
 1. Open both folders (VSC: File > Add Folder to Workspace...; Or just open them in a file explorer).
 2. Navigate to the folder: "Model-Helper Resourcepack":

@@ -1,5 +1,5 @@
 Model-Helper for Minecraft: Java Edition [1.19.3]
-Author: https://github.com/pigupp (Simon)
+Source: https://github.com/pigupp/model-helper-mc
 
 Description:
 Model-Helper is a tool that makes it easier to implement custom models (objects) in Minecraft.

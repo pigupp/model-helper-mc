@@ -65,12 +65,12 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ### V. Uninstalling/Removing Model-Helper:
 
 #### Datapack:
-   1. Execute "/function model_helper:uninstall" to remove all scoreboards that were created by this datapack.
-   2. Delete the datapack from the "datapacks"-folder.
-   3. Execute "/reload" and the datapack should be gone from your world or server.
+   1. Execute `/function model_helper:uninstall` to remove all scoreboards that were created by this datapack.
+   2. Delete the datapack from the `datapacks`-folder.
+   3. Execute `/reload` and the datapack should be gone from your world or server.
 
 #### Resourcepack:
-   1. Delete the resourcepack from your "resourcepacks"-folder.
+   1. Delete the resourcepack from your `resourcepacks`-folder.
    2. You will need to reload your resources if you are currently playing by pressing `[F3] + [T]`.
 
 ---

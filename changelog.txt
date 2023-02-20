@@ -11,3 +11,7 @@ Model-Helper Changelog:
 - Added README.txt with instructions
 - Added changelog.txt (this file)
 
+[20.02.2023] - v1.3
+- Added Source URLs
+- Minor changes to README.txt
+

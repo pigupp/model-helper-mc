@@ -8,7 +8,7 @@ It consists of a datapack (tools) and a resourcepack (models & textures) that wo
 
 Software:
 To create and edit the models, I recommend Blockbench (https://www.blockbench.net/).
-And to make changes to the Model-Helper files (dp & rp) I recommend Visual Studio Code (https://code.visualstudio.com/).
+And to edit the files inside Model-Helper (datapack & resourcepack) I recommend Visual Studio Code (https://code.visualstudio.com/).
 (⇒ but of course any text editor will do)
 
 

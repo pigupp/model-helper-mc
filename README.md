@@ -1,4 +1,4 @@
-# Model-Helper for Minecraft: Java Edition [1.19.3]
+# Model-Helper for [Minecraft: Java Edition](https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc) [1.19.3]
 
 GitHub/Source: https://github.com/pigupp/model-helper-mc
 
@@ -10,8 +10,8 @@ It consists of a datapack (tools) and a resourcepack (models & textures) that wo
 
 
 ## Software:
-To create and edit the models, I recommend Blockbench (https://www.blockbench.net/).  
-And to edit the files inside Model-Helper (datapack & resourcepack) I recommend Visual Studio Code (https://code.visualstudio.com/).  
+To create and edit the models, I recommend [Blockbench](https://www.blockbench.net/).  
+And to edit the files inside Model-Helper (datapack & resourcepack) I recommend [Visual Studio Code](https://code.visualstudio.com/).  
 (⇒ but of course any text editor will do)
 
 
@@ -23,15 +23,15 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ### I. Installation / Preparation:
 
 1. Extract/Unzip both zip-files included in this package.
-2. Move "Model-Helper Datapack" into the "datapacks"-folder of your Minecraft world (https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack).
-3. Move "Model-Helper Resourcepack" into your "resourcepacks"-folder (https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack).
+2. Move "Model-Helper Datapack" into the "datapacks"-folder of your Minecraft world [(Help)](https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack).
+3. Move "Model-Helper Resourcepack" into your "resourcepacks"-folder [(Help)](https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack).
 
 ---
 
 ### II. Building the models using Blockbench:
 
 1. Create a new "Java Block/Item".
-2. Edit and paint your model (https://www.google.com/search?q=How+to+use+Blockbench).
+2. Edit and paint your model [(Help)](https://www.google.com/search?q=How+to+use+Blockbench).
 3. Now switch to the "Display" tab, for "Slot" click on "Frame" and for "Reference Model" click on "Item Frame (invisible)".
 4. The (invisible) item frame will be the "floor"/bottom of your model, so you need to rotate the whole model by X = -90 ("Rotation").
 5. Now adjust the distance ("Translation" ⇒ Z-Axis) between the bottom of your model and the reference cube (e.g. Z = -16).
@@ -86,5 +86,5 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 
 ---
 
-```You've made it!```
+<span style="color:#d7ba7d">You've made it!</span>
 

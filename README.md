@@ -82,5 +82,5 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 
 ---
 
-*You've made it!*
+> *You've made it!*
 

@@ -67,7 +67,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ### V. Uninstalling/Removing Model-Helper:
 
 #### Datapack:
-   1. Execute `/function model_helper:uninstall` to remove all scoreboards that were created by this datapack.
+   1. Execute `/function model_helper:uninstall` to remove all scoreboards that were created by this datapack. ![Chat][img_uninstall]
    2. Delete the datapack from the `datapacks`-folder.
    3. Execute `/reload` and the datapack should be gone from your world or server.
 
@@ -93,4 +93,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 [tutorial_datapack]: https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack
 [tutorial_resourcepack]: https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack
 [tutorial_blockbench]: https://www.google.com/search?q=How+to+use+Blockbench
+
+<!-- Images -->
+[img_uninstall]: img/uninstall.png
 

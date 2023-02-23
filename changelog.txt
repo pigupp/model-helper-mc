@@ -11,7 +11,7 @@ Model-Helper Changelog:
 - Added README.txt with instructions
 - Added changelog.txt (this file)
 
-[??.02.2023] - v1.3
+[23.02.2023] - v1.3
 - Added Markdown to the README
 - Expanded the README & added images
-- Minor changes
+- Minor changes to datapack & resourcepack

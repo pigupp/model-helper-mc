@@ -28,15 +28,15 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ### II. Building the models using Blockbench:
 
 1. Create a new "Java Block/Item" (Remember to follow the naming rules described in III/2).
-   - <img src="img/blockbench_create_new.png" alt="[File > New > Java Block/Item]" style="width:40%;"> <img src="img/blockbench_java_block_item.png" alt="Project Window" style="width:40%;">
+   <img src="img/blockbench_create_new.png" alt="[File > New > Java Block/Item]" style="width:40%;"> <img src="img/blockbench_java_block_item.png" alt="Project Window" style="width:40%;">
 2. Edit and paint your model [(Help)][tutorial_blockbench].
 3. Now switch to the "Display" tab, for "Slot" click on "Frame" and for "Reference Model" click on "Item Frame (invisible)".  
-   - <img src="img/blockbench_display.png" alt="Display-Tab" style="width:18%;">  
-   - <img src="img/blockbench_slot_and_reference_model.png" alt="Slot & Reference Model" style="width:30%;">
-4. The (invisible) item frame will be the "floor"/bottom of your model, so you need to rotate the whole model by X = -90 ("Rotation").
-5. Now adjust the distance ("Translation" ⇒ Z-Axis) between the bottom of your model and the reference cube (e.g. Z = -16).
-6. If you want, you can also change the scale of the model; just try the different settings until it looks nice (or not).
-7. Now go to `[File > Save Model]` and save it somewhere (e.g. `C:\Users\<USER>\3D Objects\Blockbench\`).
+   <img src="img/blockbench_display.png" alt="Display-Tab" style="width:18%;">  
+   <img src="img/blockbench_slot_and_reference_model.png" alt="Slot & Reference Model" style="width:30%;">
+1. The (invisible) item frame will be the "floor"/bottom of your model, so you need to rotate the whole model by X = -90 ("Rotation").
+2. Now adjust the distance ("Translation" ⇒ Z-Axis) between the bottom of your model and the reference cube (e.g. Z = -16).
+3. If you want, you can also change the scale of the model; just try the different settings until it looks nice (or not).
+4. Now go to `[File > Save Model]` and save it somewhere (e.g. `C:\Users\<USER>\3D Objects\Blockbench\`).
 
 ---
 

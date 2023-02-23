@@ -57,7 +57,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 
 ### IV. Using commands and tools:
 
-- Type `/trigger model_help` in the Minecraft chat `[T]` and press Enter to see all available commands.
+- Type `/trigger model_help` in the Minecraft chat `[T]` and press Enter to see all available commands.  <br><img src="img/model_help.png" alt="" style="width:75%;">
 - To obtain added models, use `/trigger model_list` and click on the name of the item you want.
 - The rotation tool can be acquired with `/trigger model_give set -1` or via the model-list.
 - The model closest to you will be rotated when using the rotation tool or `/trigger model_turn set <value=[-8;8]>`.
@@ -67,7 +67,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ### V. Uninstalling/Removing Model-Helper:
 
 #### Datapack:
-   1. Execute `/function model_helper:uninstall` to remove all scoreboards that were created by this datapack. <img src="img/uninstall.png" alt="" style="width:80%;height:auto;">
+   1. Execute `/function model_helper:uninstall` to remove all scoreboards that were created by this datapack.  <br><img src="img/uninstall.png" alt="" style="width:75%;">
    2. Delete the datapack from the `datapacks`-folder.
    3. Execute `/reload` and the datapack should be gone from your world or server.
 

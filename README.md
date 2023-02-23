@@ -41,14 +41,16 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 
 1. Open both folders (VSC: File > Add Folder to Workspace...; Or just open them in a file explorer).
 2. Navigate to the folder: `Model-Helper Resourcepack`:
-   - Move your model file (`<name>.json`) to `\assets\minecraft\models\custom\`
-   - Open your model file with a text editor (VS Code) and change the values of `"0"` and `"particle"` to `"custom/<name>"` (replace `<name>` with the name of your model)
-   - Move your texture file for your model (`<name>.png`) to `\assets\minecraft\textures\custom\`
+   - **Important**: All names within the resourcepack must be in **lower case** and **not include any special characters** (only `a-z`, `0-9`, `-_`; e.g. `test-model_5`)
+   1. Move your model file (`<name>.json`) to `\assets\minecraft\models\custom\`
+   2. Open your model file with a text editor (VS Code) and change the values of `"0"` and `"particle"` to `"custom/<name>"` (replace `<name>` with the name of your model)
+   3. Move your texture file for your model (`<name>.png`) to `\assets\minecraft\textures\custom\`
    - Now open `\assets\minecraft\models\item\paper.json`
-   - Under "overrides" write `{"predicate": {"custom_model_data": <ID>},"model": "custom/<name>"}`, replace `<ID>` with a unique positive integer (⇒ CustomModelData-ID), replace `<name>` with the name of your model and don't forget to put a comma next to the above line.
+   4. Under "overrides" write `{"predicate": {"custom_model_data": <ID>},"model": "custom/<name>"}`, replace `<ID>` with a unique positive integer (⇒ CustomModelData-ID), replace `<name>` with the name of your model and don't forget to put a comma next to the above line.
 3. Navigate to the folder: "Model-Helper Datapack":
-   - Open `\data\model_config\functions\items.mcfunction` and duplicate the command according to the instructions in the file (marked with #)
-   - Open `\data\model_config\functions\text.mcfunction` and duplicate the command according to the instructions in the file (marked with #)
+   - All names within the datapack, unlike the resourcepack, can be uppercase and contain special characters (e.g. `Wêird Mödel`).
+   1. Open `\data\model_config\functions\items.mcfunction` and duplicate the command according to the instructions in the file (marked with #)
+   2. Open `\data\model_config\functions\text.mcfunction` and duplicate the command according to the instructions in the file (marked with #)
 4. Finally, reload the datapack by typing "/reload" in the chat and the resourcepack by pressing `[F3] + [T]`.
 
 ---

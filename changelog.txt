@@ -13,4 +13,5 @@ Model-Helper Changelog:
 
 [20.02.2023] - v1.3
 - Added Source URLs
-- Added Markdown to the README for clearer instructions
+- Added Markdown to the README
+- Expanded the README

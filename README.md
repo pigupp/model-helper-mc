@@ -1,4 +1,4 @@
-# <img src="img/icon.png" alt="Icon" style="width:3%;"> Model-Helper for Minecraft: Java Edition [1.19.3]
+# Model-Helper for Minecraft: Java Edition [1.19.3]
 
 GitHub/Source: https://github.com/pigupp/model-helper-mc  
 Minecraft: https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc  
@@ -33,26 +33,26 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 3. Now switch to the "Display" tab, for "Slot" click on "Frame" and for "Reference Model" click on "Item Frame (invisible)".  
    <img src="img/blockbench_display.png" alt="Display-Tab" style="width:18%;">  
    <img src="img/blockbench_slot_and_reference_model.png" alt="Slot & Reference Model" style="width:30%;">
-1. The (invisible) item frame will be the "floor"/bottom of your model, so you need to rotate the whole model by X = -90 ("Rotation").
-2. Now adjust the distance ("Translation" ⇒ Z-Axis) between the bottom of your model and the reference cube (e.g. Z = -16).
-3. If you want, you can also change the scale of the model; just try the different settings until it looks nice (or not).
-4. Now go to `[File > Save Model]` and save it somewhere (e.g. `C:\Users\<USER>\3D Objects\Blockbench\`).
+4. The (invisible) item frame will be the "floor"/bottom of your model, so you need to rotate the whole model by X = -90 ("Rotation").
+5. Now adjust the distance ("Translation" ⇒ Z-Axis) between the bottom of your model and the reference cube (e.g. Z = -16).
+6. If you want, you can also change the scale of the model; just try the different settings until it looks nice (or not).
+7. Now go to `[File > Save Model]` and save it somewhere (e.g. `C:\Users\<USER>\3D Objects\Blockbench\`).
 
 ---
 
 ### III. Adding Models and Textures:
 
 1. Open both folders (VSC: [File > Add Folder to Workspace...]; Or just open them in a file explorer).  
-<img src="img/vscode_add_folder_to_workspace.png" alt="[File > Add Folder to Workspace...]" style="width:35%;">
+   <img src="img/vscode_add_folder_to_workspace.png" alt="[File > Add Folder to Workspace...]" style="width:35%;">
 2. Navigate to the folder: `Model-Helper Resourcepack`:
    - **Important**: All names within the resourcepack must be in **lower case** and **not include any special characters** (only `a-z`, `0-9`, `-_`; e.g. `test-model_5`)
    1. Move your model file (`<name>.json`) to `\assets\minecraft\models\custom\`
    2. Open your model file with a text editor (VS Code) and change the values of `"0"` and `"particle"` to `"custom/<name>"` (replace `<name>` with the name of your model)  
-   <img src="img/vscode_textures.png" alt="Texture-Values in Editor" style="width:35%;">
+      <img src="img/vscode_textures.png" alt="Texture-Values in Editor" style="width:35%;">
    3. Move your texture file for your model (`<name>.png`) to `\assets\minecraft\textures\custom\`
    - Now open `\assets\minecraft\models\item\paper.json`
    4. Under "overrides" write `{"predicate": {"custom_model_data": <ID>}, "model": "custom/<name>"}`, replace `<ID>` with a unique positive integer (⇒ CustomModelData-ID), replace `<name>` with the name of your model and don't forget to put a comma next to the above line.  
-   <img src="img/vscode_overrides.png" alt="[File > Add Folder to Workspace...]" style="width:70%;">
+      <img src="img/vscode_overrides.png" alt="[File > Add Folder to Workspace...]" style="width:70%;">
 3. Navigate to the folder: "Model-Helper Datapack":
    - All names within the datapack, unlike the resourcepack, can be uppercase and contain special characters (e.g. `Wêird Mödel`).
    1. Open `\data\model_config\functions\items.mcfunction` and duplicate the command according to the instructions in the file (marked with #)
@@ -64,7 +64,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ### IV. Using commands and tools:
 
 - Type `/trigger model_help` in the Minecraft chat `[T]` and press Enter to see all available commands.
-<img src="img/minecraft_model_help.png" alt="" style="width:70%;">
+   <img src="img/minecraft_model_help.png" alt="" style="width:70%;">
 - To obtain added models, use `/trigger model_list` and click on the name of the item you want.
 - The rotation tool can be acquired with `/trigger model_give set -1` or via the model-list.
 - The model closest to you will be rotated when using the rotation tool or `/trigger model_turn set <value=[-8;8]>`  
@@ -76,7 +76,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 
 #### Datapack:
    1. Execute `/function model_helper:uninstall` to remove all scoreboards that were created by this datapack.
-   <img src="img/minecraft_uninstall.png" alt="" style="width:70%;">
+      <img src="img/minecraft_uninstall.png" alt="" style="width:70%;">
    2. Delete the datapack from the `datapacks`-folder.
    3. Execute `/reload` and the datapack should be gone from your world or server.
 
@@ -93,7 +93,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 
 ---
 
-<img src="img/icon.png" alt="Icon" style="width:2%;"> You've made it!
+<img src="img/icon.png" alt="Icon" style="width:2%;"> *You've made it!*
 
 
 <!-- URLs -->

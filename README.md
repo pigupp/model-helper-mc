@@ -27,7 +27,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 
 ### II. Building the models using Blockbench:
 
-1. Create a new "Java Block/Item" (Remember to follow the naming rules described in III/2).
+1. Create a new "Java Block/Item" (Remember to follow the naming rules described in III/2).  
    <img src="img/blockbench_create_new.png" alt="[File > New > Java Block/Item]" style="width:40%;"> <img src="img/blockbench_java_block_item.png" alt="Project Window" style="width:40%;">
 2. Edit and paint your model [(Help)][tutorial_blockbench].
 3. Now switch to the "Display" tab, for "Slot" click on "Frame" and for "Reference Model" click on "Item Frame (invisible)".  
@@ -63,7 +63,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 
 ### IV. Using commands and tools:
 
-- Type `/trigger model_help` in the Minecraft chat `[T]` and press Enter to see all available commands.
+- Type `/trigger model_help` in the Minecraft chat `[T]` and press Enter to see all available commands.  
    <img src="img/minecraft_model_help.png" alt="" style="width:70%;">
 - To obtain added models, use `/trigger model_list` and click on the name of the item you want.
 - The rotation tool can be acquired with `/trigger model_give set -1` or via the model-list.
@@ -75,7 +75,7 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ### V. Uninstalling/Removing Model-Helper:
 
 #### Datapack:
-   1. Execute `/function model_helper:uninstall` to remove all scoreboards that were created by this datapack.
+   1. Execute `/function model_helper:uninstall` to remove all scoreboards that were created by this datapack.  
       <img src="img/minecraft_uninstall.png" alt="" style="width:70%;">
    2. Delete the datapack from the `datapacks`-folder.
    3. Execute `/reload` and the datapack should be gone from your world or server.

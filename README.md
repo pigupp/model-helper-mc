@@ -9,8 +9,8 @@ It consists of a datapack (tools) and a resourcepack (models & textures) that wo
 (FYI: Models don't have hitboxes unless you add your own)  
 
 ## Software:
-To create and edit the models, I recommend [Blockbench](https://www.blockbench.net/).  
-And to edit the files inside Model-Helper (datapack & resourcepack) I recommend [Visual Studio Code](https://code.visualstudio.com/).  
+To create and edit the models, I recommend [Blockbench][blockbench].  
+And to edit the files inside Model-Helper (datapack & resourcepack) I recommend [Visual Studio Code][vscode].  
 (⇒ but of course any text editor will do)  
 
 ## Instructions:
@@ -20,15 +20,15 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ### I. Installation / Preparation:
 
 1. Extract/Unzip both zip-files included in this package.
-2. Move "Model-Helper Datapack" into the `datapacks`-folder of your Minecraft world [(Help)](https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack).
-3. Move "Model-Helper Resourcepack" into your `resourcepacks`-folder [(Help)](https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack).
+2. Move "Model-Helper Datapack" into the `datapacks`-folder of your Minecraft world [(Help)][tutorial_datapack].
+3. Move "Model-Helper Resourcepack" into your `resourcepacks`-folder [(Help)][tutorial_resourcepack].
 
 ---
 
 ### II. Building the models using Blockbench:
 
 1. Create a new "Java Block/Item".
-2. Edit and paint your model [(Help)](https://www.google.com/search?q=How+to+use+Blockbench).
+2. Edit and paint your model [(Help)][tutorial_blockbench].
 3. Now switch to the "Display" tab, for "Slot" click on "Frame" and for "Reference Model" click on "Item Frame (invisible)".
 4. The (invisible) item frame will be the "floor"/bottom of your model, so you need to rotate the whole model by X = -90 ("Rotation").
 5. Now adjust the distance ("Translation" ⇒ Z-Axis) between the bottom of your model and the reference cube (e.g. Z = -16).
@@ -85,4 +85,12 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 ---
 
 *You've made it!*
+
+
+<!-- URLs -->
+[blockbench]: https://www.blockbench.net/
+[vscode]: https://code.visualstudio.com/
+[tutorial_datapack]: https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack
+[tutorial_resourcepack]: https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack
+[tutorial_blockbench]: https://www.google.com/search?q=How+to+use+Blockbench
 

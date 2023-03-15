@@ -19,8 +19,8 @@ scoreboard players operation @s model_turn *= #45 model_rotation
 scoreboard players operation @e[type=item_frame,limit=1,sort=nearest,distance=..5] model_rotation *= #45 model_rotation
 
 # Messages
-execute unless entity @e[type=item_frame,limit=1,sort=nearest,distance=..12] run title @s actionbar {"text":"Couldn't find any model!","color":"red"}
-execute if entity @e[type=item_frame,limit=1,sort=nearest,distance=..12] unless entity @e[type=item_frame,limit=1,sort=nearest,distance=..5] run title @s actionbar {"text":"Too far away!","color":"red"}
+execute unless entity @e[type=item_frame,limit=1,sort=nearest,distance=..15] run title @s actionbar {"text":"Couldn't find any model!","color":"red"}
+execute if entity @e[type=item_frame,limit=1,sort=nearest,distance=..15] unless entity @e[type=item_frame,limit=1,sort=nearest,distance=..5] run title @s actionbar {"text":"Too far away!","color":"red"}
 execute if entity @e[type=item_frame,limit=1,sort=nearest,distance=..5] run title @s actionbar [{"text":"Rotated by ","color":"green"},{"score":{"name":"@s","objective":"model_turn"},"color":"green"},{"text":"° (","color":"green"},{"score":{"name":"@e[type=item_frame,limit=1,sort=nearest,distance=..5]","objective":"model_rotation"}},{"text":"°)"}]
 
 # Reset trigger & scores

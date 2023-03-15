@@ -1,10 +1,10 @@
-# Model-Helper for Minecraft: Java Edition [1.19.3]
+# Model-Helper for Minecraft: Java Edition [1.19.4]
 
 GitHub/Source: https://github.com/pigupp/model-helper-mc  
 Minecraft: https://www.minecraft.net/store/minecraft-java-bedrock-edition-pc  
 
 ## Description:
-Model-Helper is a tool that makes it easier to implement custom models (objects) in Minecraft.  
+Model-Helper is a tool that makes it easier to implement custom models (objects; e.g. blocks, furniture, etc.) in Minecraft.  
 It consists of a datapack (tools) and a resourcepack (models & textures) that work closely together.  
 (FYI: Models don't have hitboxes unless you add your own)  
 
@@ -69,6 +69,8 @@ And to edit the files inside Model-Helper (datapack & resourcepack) I recommend 
 - The rotation tool can be acquired with `/trigger model_give set -1` or via the model-list.
 - The model closest to you will be rotated when using the rotation tool or `/trigger model_turn set <value=[-8;8]>`  
    ⇒ See the item description for more details.
+- You can place a model on any surface (floor, wall, ceiling, etc.) by right-clicking with the item frame for that model while aiming at a block.
+- To remove a model, left-click where you originally placed it to destroy the invisible item frame containing the model.
 
 ---
 

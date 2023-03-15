@@ -15,3 +15,8 @@ Model-Helper Changelog:
 - Added Markdown to the README
 - Expanded the README & added images
 - Minor changes to datapack & resourcepack
+
+[15.03.2023] - v1.4
+- Added support for Minecraft version 1.19.4
+- Bug fixes (=> Multiplayer fix)
+- Updated README

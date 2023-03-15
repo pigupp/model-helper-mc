@@ -1,4 +1,4 @@
-# LOAD (Load/Reload)
+# LOAD (Reload)
 
 # Add triggers for model-"commands"
 scoreboard objectives add model_give trigger "trigger/give"
